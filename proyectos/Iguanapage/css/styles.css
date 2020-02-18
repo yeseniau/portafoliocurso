@@ -1,0 +1,74 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.hero {
+    text-align: center;
+    width: 100%;
+    padding: 13px;
+}
+.hero img{
+    width: 100%;
+}
+.informacion {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.informacion div {
+    display: inline-block;
+    width: 43%;
+}
+.informacion div span{
+    text-align: justify;
+    margin: 5%;
+    float: right;
+}
+.informacion div img{
+    width: 43%;
+    text-align: center;
+}
+
+.caracteristicas {
+    padding: 2%;
+    text-align: center;
+    background: #1E1A13;
+    width: 100%;
+    height: 210px;
+}
+.caracteristicas section{
+    display: inline-block;
+    width: 30%;
+    padding: 1%;
+}
+.caracteristicas section img{
+    display: inline-block;
+    padding: 10px 150px ;
+    text-align: center;
+    width: 14%;
+}
+.iguanas{
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+.iguanas div {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+.iguanas div img{
+    text-align: center;
+    width: 70%;
+}
+footer{
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background: #1E1A13;
+}
+

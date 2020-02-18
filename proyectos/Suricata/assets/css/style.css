@@ -1,0 +1,60 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.navbar {
+    background-color: rgb(219, 152, 8);
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.container img{
+    width: 75px;
+}
+.container h1{
+    color: #707070;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+.card-title{
+    color: #373A3C; 
+    opacity: 1;
+    font-size: 25px;
+    font-weight: bold;
+}
+.mb-4 img {
+    width: 100%;
+}
+.text-center {
+    text-align: center!important;
+    padding: 2%;
+    background: none;
+    color: #707070;
+}
+
+.col-lg-5 h2{
+    color: #ffffff;
+}
+
+.metodo-pago{
+    margin: auto;
+    background-color: rgb(155, 69, 43);
+    width: 100%
+}
+.fab {
+    color: #ffffff;
+    font-size: 300%;
+    padding: 6px;
+    text-align: center;
+}
+.yellow {
+    background-color: rgb(219, 152, 8);
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+}
+.yellow img {
+   height: 80px;
+}
+

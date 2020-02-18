@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Cabin', sans-serif;
+}
+
+.bg-dar{
+    background-color: #373A3C;
+}
+
+.nav {
+    color: white;
+}
+.nav-link{
+    color: #ffffff;
+}
+.cont-ppal {
+    margin-top: 50px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background: black;
+}
+
+.botones-slider{
+    margin-top: 230px;
+}
+
+.suscrip {
+    margin-top: 15px;
+    padding: 80px 15px;
+}
+
+.receta{
+    font-size: 20px;
+}
+
+.boton{
+    border-color: gray;
+    margin: 15px;
+    
+}
+.tooltip {
+    width: 250px;
+}
+.tooltip .tooltip-inner {
+    max-width: none;
+
+}
+
+.container-carousel {
+    margin: 20px 0px;
+}
+.carousel-indicators li {
+    background-color: black;
+}
+.carousel-indicators ol {
+    margin-bottom: -1rem;
+}
+
+.bemp {
+    border-color: #ffffff;
+    margin-top: 10px;
+}
+
+.card-body{
+    font-size: 23px;
+}
+
+@media (max-width:480px){
+    .suscrip {
+      padding: 20px 10px;
+    }
+}
+
+strong {
+    font-family: Lobster;
+    font-size: 30px;
+}
+.ricomida {
+    font-family: Lobster;
+    padding: 10px;
+    font-size: 37px;
+}
