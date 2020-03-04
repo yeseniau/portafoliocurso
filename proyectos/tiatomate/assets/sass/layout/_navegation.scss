@@ -1,0 +1,12 @@
+@import '../abstracts/variables';
+
+.navbar-brand {
+    width: 120px;
+}
+.nav-link{
+    color: $color_font_second;
+}
+.navbar .navbar-nav .nav-link:hover{
+        color: $colorlink;
+    }
+

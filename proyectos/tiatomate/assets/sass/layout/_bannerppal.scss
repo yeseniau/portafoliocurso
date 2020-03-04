@@ -1,0 +1,31 @@
+@import '../abstracts/variables';
+
+.conten_banner{
+    background: url(#{$imgppal});
+    width: 100%;
+    background-size: cover;
+    margin-top: 75px;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 74px;
+}
+
+.conten_banner h1{
+    color: $color_font_second;
+    text-align: center;
+    font-family: $font_banner;
+    font-size: 70px;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0 auto;
+    display: block;
+    width: 550px;  
+}
+
+@media screen and (max-width: 600px){
+.conten_banner h1 {
+    font-size: 35px;
+    width: 280px;
+    margin-top: 50px;
+    }
+}
