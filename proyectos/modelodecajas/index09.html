@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 9</title>
+    <style media="screen" type="text/css">
+        html,
+        * {
+            margin: 0em;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: black;
+            width: 100%;
+            color: white;
+            height: auto;
+            position: static;
+        }
+
+        #nav {
+            padding: 20px;
+        }
+
+        .position {
+            display: flex;
+        }
+
+        .conten_menu {
+            background-color: rgb(204, 214, 223);
+            width: 30%;
+            height: auto;
+            padding: 15px;
+        }
+
+        ul.menu li a {
+            color: rgb(120, 122, 252);
+            padding: 10px;
+        }
+
+        .sub-titulo {
+            padding: 20px;
+        }
+
+
+        footer {
+            background-color: thistle;
+            color: grey;
+            font-weight: bold;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            padding: 15px 0;
+            /* clear: both; */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="nav">
+            <h1>Titulo pagina</h1>
+        </div>
+    </nav>
+    <div class="position">
+        <!-- usar solo los contenedores -->
+        <div class="conten_menu">
+            <!--colocar div conten_menu como absolut  -->
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li><a href="#">Item-1</a></li>
+                <li><a href="#">Item-2</a></li>
+                <li><a href="#">Item-3</a></li>
+                <li><a href="#">Item-4</a></li>
+                <li><a href="#">Item-5</a></li>
+            </ul>
+        </div>
+        <div class="sub-titulo">
+            <!--colocar sub-titulo como relative o viceversa  -->
+            <h2>Sub-titulo</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dolores reprehenderit, consequatur
+                veritatis
+                dicta modi maxime, inventore dolorem voluptatem reiciendis ducimus quidem. Doloribus debitis velit,
+                mollitia
+                perferendis itaque recusandae praesentium fugit.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dolores reprehenderit, consequatur
+                veritatis
+                dicta modi maxime, inventore dolorem voluptatem reiciendis ducimus quidem. Doloribus debitis velit,
+                mollitia
+                perferendis itaque recusandae praesentium fugit.</p>
+        </div>
+    </div>
+    <footer>
+        <p>@Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>

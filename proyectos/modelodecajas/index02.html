@@ -18,8 +18,8 @@
 
         .square__red {
             background-color: rgba(255, 0, 0, .5);
-            position: relative;
-            z-index: 3;
+            position: absolute;
+            z-index: 30;
         }
 
         .square__green {
@@ -27,7 +27,7 @@
             left: 25px;
             position: absolute;
             top: 25px;
-            z-index: 2;
+            z-index: 20;
         }
 
         .square__blue {
@@ -35,8 +35,10 @@
             left: 50px;
             position: absolute;
             top: 50px;
-            z-index: 1;
+            z-index: 10;
         }
+
+        /* segun las buenas practicas debe dejar un rango entre en el valor de cada z- para porder jugar con el posicionamiento sin tener que cambiar los valores en los demas elementos */
     </style>
 </head>
 
