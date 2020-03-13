@@ -1,0 +1,29 @@
+@import '../abstracts/variables';
+
+// dispositivos pequeños
+@mixin sm {
+   @media (max-width: $screen-sm){
+       @content;
+   }
+}
+
+// dispositivos medianos
+@mixin md {
+   @media (min-width: $screen-sm) and (max-width: $screen-md) {
+       @content;
+   }
+}
+
+// dispositivos grandes
+@mixin lg {
+   @media (min-width: $screen-md) and (max-width: $screen-lg){
+       @content;
+   }
+}
+
+// Dispositivos extra grandes
+@mixin  xl {
+   @media (max-width: $screen-lg) {
+       @content;
+   }
+}

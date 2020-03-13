@@ -1,0 +1,30 @@
+@import '../abstracts/variables';
+
+
+.newsletter {
+    width: 100%;
+    background-color: #bd4e4b;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: inline-block
+}
+
+.newsletter h2 {
+    font-size: 24px;
+}
+
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+    margin: 5px 0;
+
+}
+
+.group button {
+    background-color: coral;
+    color: white;
+}

@@ -1,0 +1,47 @@
+@import '../abstracts/variables';
+
+
+
+.menu {
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid gray;
+    background-color: cadetblue;
+    box-sizing: content-box;
+    // position: fixed;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block; 
+}
+
+.nav {
+    width: auto;
+    float: right;
+    padding-top: 5px;
+    ul{
+        list-style: none;
+    }
+    li{
+        float: left;
+        padding: 0 4px;
+    }
+    input{
+        float: right;
+    }
+}
+
+
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.input-menu {
+    border-radius: 30px;
+}
